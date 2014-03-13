@@ -6,7 +6,7 @@ AngularJS directive to create HTML element which lock like iOS switch element
 
 ### USAGE
 
-    <div switch-state="switchState" zbx-switch />
+    <div switch-state="switchState" my-switch />
 
 ### SCSS
 
@@ -35,6 +35,7 @@ AngularJS directive to create HTML element which lock like iOS switch element
             cursor: pointer;
             color: white;
             @include box-shadow(darken($colorBorderDark, 10%) 0 0 1px 1px);
+            text-align: center;
         }
     
         &.-off {
