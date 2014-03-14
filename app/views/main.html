@@ -1,0 +1,38 @@
+<div class="header">
+    <ul class="nav nav-pills pull-right">
+        <li class="active"><a ng-href="#">Home</a></li>
+        <li><a ng-href="#">About</a></li>
+        <li><a ng-href="#">Contact</a></li>
+    </ul>
+    <h3 class="text-muted">angularjs switch</h3>
+</div>
+
+
+
+<br/>
+
+<div style="width: 200px; float: left;">
+    <div zbx-switch switch-style="switchStyleButton" switch-state="switchState1"></div>
+</div>
+
+<div style="width: 200px; float: left;">
+    {{ switchState1 }}
+</div>
+
+<br style="clear: both;"/>
+
+<div style="width: 200px; float: left; margin-top: 20px;">
+    <div zbx-switch switch-style="switchStyleSlider" switch-state="switchState2"></div>
+</div>
+
+<div style="width: 200px; float: left;margin-top: 20px;">
+    {{ switchState2 }}
+</div>
+
+<br/>
+<br/>
+<br/>
+
+<div class="footer">
+    <p>♥ from the Yeoman team</p>
+</div>
